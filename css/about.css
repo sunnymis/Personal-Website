@@ -16,7 +16,7 @@
 #aboutSection {
     width: 100%;
     margin: 0 auto; 
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sunny.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sunny2.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;

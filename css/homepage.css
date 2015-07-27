@@ -7,19 +7,8 @@
     background-size: cover;
 }
 
-.firstSection {
+.section {
     height: 100vh; 
-}
-
-.secondSection { 
-    height: 100vh; 
-}
-
-.thirdSection {
-    height: 100vh; 
-    /*
-    padding-bottom: 30%;
-    background-color: #2C3539;*/
 }
 
 .center-title {

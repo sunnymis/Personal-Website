@@ -71,3 +71,14 @@ ul.nav {
     transition: all 0s ease;
 }
 
+footer {
+    color: #fff;
+    background-color: #000;
+    text-align: left;
+}
+
+footer p {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
