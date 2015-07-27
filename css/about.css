@@ -1,0 +1,53 @@
+.about-background {
+    /*
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sunny.jpg") no-repeat center center fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+*/
+}
+
+#aboutSection {
+    width: 100%;
+    margin: 0 auto; 
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sunny.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+
+.about-paragraph {
+    position:  relative; 
+    width: 500px; 
+    height: 300px; 
+    top: 25%; 
+    left: 10%;
+    line-height: 50px;
+}
+
+
+.about-paragraph p {
+    color: #fff; 
+    font-size: 30px; 
+    padding-bottom: 10%; 
+    text-align: left;
+}
+
+.about-download-button {
+    display: block;
+    position: relative; 
+    margin: 0 auto; 
+}
+
+
+.skills {
+    position: relative;
+    top: 50%; 
+}
