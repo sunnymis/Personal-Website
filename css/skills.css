@@ -13,7 +13,6 @@
     position: fixed;
     left: 0;
     top: 0;
-    z-index: -2;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -25,6 +24,65 @@
     color: #fff;
     padding-top: 2%;;
 }
+
+.skillCircles {
+    text-align: center;
+    margin: 10% 0; 
+}
+
+
+.skillCircles li {
+    height: 200px;
+    width: 200px; 
+    text-align: center; 
+    line-height: 15em;
+    display: inline-block;
+    background: limegreen;
+    margin: 0 10em; 
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    position: relative;
+}
+
+#backEndCircle::before {
+      content: '';
+      position: absolute;
+      top: 6em;
+      left: -20.5em;
+      width: 20.5em;
+      height: .2em;
+      background: #fff;
+      z-index: 1;
+}
+
+#databaseCircle::before {
+      content: '';
+      position: absolute;
+      top: 6em;
+      left: -20.5em;
+      width: 20.5em;
+      height: .2em;
+      background: #fff;
+      z-index: 1;
+}
+
+#frontEndCircle i {
+
+}
+
+#frontEndCircle {
+    background: #22A7F0;
+}
+
+#backEndCircle {
+    background: #2ECC71;
+}
+
+#databaseCircle { 
+    background: #F4B350;
+}
+
 
 .skillTypes {
     color: #fff;
