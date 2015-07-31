@@ -82,3 +82,295 @@ footer p {
     margin-left: 5%;
     margin-bottom: 5%;
 }
+
+/************************
+*
+* Main CSS 
+*
+**************************/
+#headerAndSection {
+    width: 100%;
+    margin: 0 auto; 
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mac-mockup.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.section {
+    height: 100vh; 
+}
+
+.center-title {
+	 
+    position: relative;
+	text-align: center;
+	margin: 0 auto; 
+    top: 25%;
+    z-index: 1;
+	margin: 0 0 0 -100px;
+    color: #fff;
+	text-shadow: 3px 4px 5px #000;
+}
+
+.center-title h1 {
+	font-size: 60px;
+}
+
+.center-title h2 {
+	font-size: 45px;
+}
+
+
+/************************
+*
+* ABOUT CSS 
+*
+**************************/
+
+.about-background {
+    
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sunny.jpg") no-repeat center center fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#aboutSection {
+    width: 100%;
+    margin: 0 auto; 
+    background-image: url("../images/sunny2.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+
+.about-paragraph {
+    position:  relative; 
+    width: 500px; 
+    height: 300px; 
+    top: 25%; 
+    left: 10%;
+    line-height: 50px;
+}
+
+
+.about-paragraph p {
+    color: #fff; 
+    font-size: 30px; 
+    padding-bottom: 10%; 
+    text-align: left;
+}
+
+.about-download-button {
+    display: block;
+    position: relative; 
+    margin: 0 auto; 
+}
+
+
+.skills {
+    position: relative;
+    top: 50%; 
+}
+/************************
+*
+* SKILLS CSS 
+*
+**************************/
+#skillsSection {
+    width: 100%;
+    margin: 0 auto; 
+    background-image: url("../images/mac-stock.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.skills-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#skillsTitle {
+    text-align: center;
+    font-size: 75px; 
+    color: #fff;
+    padding-top: 2%;;
+}
+
+.skillCircles {
+    text-align: center;
+    margin: 10% 0; 
+}
+
+
+.skillCircles li {
+    height: 200px;
+    width: 200px; 
+    text-align: center; 
+    line-height: 15em;
+    display: inline-block;
+    background: limegreen;
+    margin: 0 10em; 
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    position: relative;
+}
+
+#backEndCircle::before {
+      content: '';
+      position: absolute;
+      top: 6em;
+      left: -20.5em;
+      width: 20.5em;
+      height: .2em;
+      background: #fff;
+      z-index: 1;
+}
+
+#databaseCircle::before {
+      content: '';
+      position: absolute;
+      top: 6em;
+      left: -20.5em;
+      width: 20.5em;
+      height: .2em;
+      background: #fff;
+      z-index: 1;
+}
+
+
+#frontEndCircle {
+    background: #22A7F0;
+}
+
+#backEndCircle {
+    background: #2ECC71;
+}
+
+#databaseCircle { 
+    background: #F4B350;
+}
+
+
+.skillTypes {
+    color: #fff;
+    font-size: 50px;
+    text-align: center; 
+    list-style: none;
+}
+
+#html5 {
+    margin-left: -50%;
+    margin-bottom: 50%;
+}
+
+#css3 {
+    margin-left: -50%;
+    margin-bottom: 50%;
+}
+
+#js {
+    margin-left: -50%;
+    margin-bottom: 50%;
+}
+
+#angular {
+    margin-left: -50%;
+    margin-bottom: 50%;
+}
+
+
+
+
+#csharp {
+    margin-left: 50%;
+    margin-bottom: 50%;
+}
+
+#java {
+    margin-left: 90%;
+    margin-bottom: 50%;
+}
+
+#python {
+    margin-left: 90%;
+}
+
+/************************
+*
+* CONTACT CSS 
+*
+**************************/
+
+#contactSection {
+    width: 100%;
+    margin: 0 auto; 
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/phone.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.contact-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#contactTitle gi{
+    text-align: center; 
+    font-size: 75px; 
+    color: #fff;
+    padding-top: 5%;;
+}
+
+.contactList {
+    padding-top: 10%;
+    margin: 0 auto; 
+}
+
+.contactList li {
+    margin: 10% auto;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+}
+
+.contactList ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.contactList li a {
+    padding-right: 10%;
+}
+
+
+.fa-cog {
+  color: #fff;
+}
