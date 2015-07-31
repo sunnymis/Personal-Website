@@ -1,7 +1,7 @@
 #contactSection {
     width: 100%;
     margin: 0 auto; 
-    background-image: url("../images/gradient.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/phone.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -32,7 +32,7 @@
 }
 
 .contactList li {
-    margin: 0 auto;
+    margin: 10% auto;
     width: 100%;
     text-decoration: none;
     display: inline-block;
