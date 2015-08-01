@@ -401,6 +401,27 @@ footer p {
     padding-right: 0;
   }
 
+ 
+ .fa {
+     top: 5%; 
+     left: 2%;
+ } 
+ 
+    #skillsTitle {  
+        font-size: 40px;
+    }
+    .skillCircles li {
+        height: 150px;
+        width: 150px; 
+        text-align: center; 
+        line-height: 15em;
+        display: inline-block;
+        background: limegreen;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+        position: relative;
+    }
 
     #backEndCircle::before {
         display: none;
@@ -414,7 +435,7 @@ footer p {
   
 }
 
-@media screen and (min-width: 200px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     
     #headerAndSection {
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mac-mockup-mobile.png");
