@@ -182,10 +182,7 @@ footer p {
 
 
 
-.skills {
-    position: relative;
-    top: 50%; 
-}
+
 /************************
 *
 * SKILLS CSS 
@@ -262,6 +259,12 @@ footer p {
       z-index: 1;
 }
 
+
+.fa {
+    margin: auto auto; 
+    top: 30%;
+    left: 25%;
+}
 
 #frontEndCircle {
     background: #22A7F0;
@@ -409,6 +412,17 @@ footer p {
     padding-left: 0;
     padding-right: 0;
   }
+
+
+    #backEndCircle::before {
+        display: none;
+    }
+    
+    
+    #databaseCircle::before {
+        display: none;
+}
+
   
 }
 
@@ -434,5 +448,18 @@ footer p {
     font-size: 20px;
     text-align: center;
   }
-  
+ 
+ .fa {
+     top: 5%; 
+     left: 2%;
+ } 
+ 
+    #backEndCircle::before {
+        display: none;
+    }
+    
+    #databaseCircle::before {
+        display: none;
+    }
+
 }
