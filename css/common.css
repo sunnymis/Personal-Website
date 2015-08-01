@@ -436,7 +436,7 @@ footer p {
   
 }
 
-@media screen and (min-width: 600px) and (max-width: 991px) {
+@media screen and (min-width: 400px) and (max-width: 991px) {
     
     #headerAndSection {
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mac-mockup-mobile.png");
