@@ -385,6 +385,18 @@ footer p {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   
+    #headerAndSection {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mac-mockup-mobile.png");
+    }
+    
+    #aboutSection {
+        background-image: url("../images/sunny2-mobile.png");
+    }
+    
+    #contactSection {
+        background-image: url("../images/phone-mobile.png");
+    }
+    
  /* Make Navigation Toggle on Desktop Hover */
   .dropdown:hover .dropdown-menu {
       display: block;
@@ -401,7 +413,7 @@ footer p {
     padding-right: 0;
   }
 
- 
+  
  .fa {
      top: 5%; 
      left: 2%;
@@ -410,7 +422,6 @@ footer p {
     #skillsTitle {  
         font-size: 40px;
     }
-    
     .skillCircles li {
         height: 150px;
         width: 150px; 
@@ -423,16 +434,14 @@ footer p {
     	border-radius: 50%;
         position: relative;
     }
-
+ 
     #backEndCircle::before {
         display: none;
     }
     
-    
     #databaseCircle::before {
         display: none;
-}
-
+    }
   
 }
 
