@@ -441,7 +441,15 @@ footer p {
     #headerAndSection {
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mac-mockup-mobile.png");
     }
-  
+    
+    #aboutSection {
+        background-image: url("../images/sunny2-mobile.png");
+    }
+    
+    #contactSection {
+        background-image: url("../images/phone-mobile.png");
+    }
+    
   /* Make Navigation Toggle on Desktop Hover */
   .dropdown:hover .dropdown-menu {
       display: block;
@@ -484,8 +492,6 @@ footer p {
     	border-radius: 50%;
         position: relative;
     }
-
-
  
     #backEndCircle::before {
         display: none;
