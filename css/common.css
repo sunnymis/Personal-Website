@@ -447,7 +447,9 @@ footer p {
      left: 2%;
  } 
  
- 
+    #skillsTitle {  
+        font-size: 40px;
+    }
     .skillCircles li {
         height: 150px;
         width: 150px; 
@@ -455,7 +457,6 @@ footer p {
         line-height: 15em;
         display: inline-block;
         background: limegreen;
-        margin: 0 10em; 
     	-moz-border-radius: 50%;
     	-webkit-border-radius: 50%;
     	border-radius: 50%;
