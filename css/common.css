@@ -447,6 +447,23 @@ footer p {
      left: 2%;
  } 
  
+ 
+    .skillCircles li {
+        height: 150px;
+        width: 150px; 
+        text-align: center; 
+        line-height: 15em;
+        display: inline-block;
+        background: limegreen;
+        margin: 0 10em; 
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+        position: relative;
+    }
+
+
+ 
     #backEndCircle::before {
         display: none;
     }
