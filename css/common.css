@@ -445,7 +445,8 @@ footer p {
   
 }
 
-@media screen and (min-width: 400px) and (max-width: 991px) {
+@media screen and (min-width: 50px) and (max-width: 991px) {
+
     
     #headerAndSection {
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mac-mockup-mobile.png");
@@ -490,8 +491,8 @@ footer p {
         font-size: 40px;
     }
     .skillCircles li {
-        height: 150px;
-        width: 150px; 
+        height: 100px;
+        width: 100px; 
         text-align: center; 
         line-height: 15em;
         display: inline-block;
