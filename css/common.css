@@ -1,6 +1,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: "Roboto";
 }
 
 body > section {
@@ -115,10 +116,12 @@ footer p {
 
 .sunnyTitle {
     color: #fff;
+    font-family: "Roboto";
 }
 
 .sunnyTitle p {
 	font-size: 45px;
+    font-family: "Roboto";
 }
 
 #name {
@@ -129,6 +132,54 @@ footer p {
     display: table-cell;
     vertical-align: middle;
 }
+
+.cycle-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+    font-size: 45px;
+	color: #e74c3c;;
+    white-space: nowrap;
+}
+
+
+
+.cycle-words span{
+	animation: cycleWordsFunction 25s linear infinite 0s;
+}
+
+.cycle-words span:nth-child(2) { 
+	animation-delay: 5s; 
+	color: #e74c3c;
+}
+.cycle-words span:nth-child(3) { 
+	animation-delay: 10s; 
+    color: #e74c3c; 
+}
+.cycle-words span:nth-child(4) { 
+	animation-delay: 15s; 
+	color: #e74c3c;
+}
+.cycle-words span:nth-child(5) { 
+	animation-delay: 20s; 
+	color: #e74c3c;
+}
+.cycle-words span:nth-child(6) {  
+	animation-delay: 25s; 
+	color: #e74c3c;
+}
+
+@keyframes cycleWordsFunction {
+    0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
+    10% { opacity: 0.3; width: 0px; }
+	20% { opacity: 1; width: 100%; }
+    27% { opacity: 0; width: 100%; }
+    100% { opacity: 0; }
+}
+
+
+
 
 /************************
 *
@@ -607,4 +658,10 @@ ul.skillCircles li:hover span.text-content {
      
      
 
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/roboto/Roboto-Medium.ttf) format("truetype");
 }
