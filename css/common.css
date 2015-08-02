@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body > section {
   padding: 70px 0;
 }
@@ -237,6 +242,63 @@ footer p {
     position: relative;
 }
 
+.skillName {
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    top: 60%;
+    left: -10%;
+}
+
+#frontEndParagraph {
+    padding-bottom: 50%;
+    left: 40%;
+    position: relative;
+}
+
+
+/*
+    TO DO: GET HOVER WORKING
+
+.skillCircles li:hover {
+    border-radius: 10%;
+    transition-property: border-radius;
+    transition-duration: 1.5s;
+}
+
+
+
+span.text-content {
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+ul.skillCircles li:hover span.text-content {
+  opacity: 1;
+}
+
+.text-content {
+    padding-bottom: 5%;
+}
+
+*/
+
+
+
 #backEndCircle::before {
       content: '';
       position: absolute;
@@ -344,7 +406,7 @@ footer p {
     color: #fff;
     padding-top: 5%;;
 }
-
+/*
 .contactList {
     padding-top: 10%;
     margin: 0 auto; 
@@ -367,11 +429,20 @@ footer p {
 .contactList li a {
     padding-right: 10%;
 }
-
+*/
+.contactList {
+    padding-top: 10%;
+}
+.contactList a {
+    font-size: 60px;
+    padding-right: 15%;
+}
 
 .fa-cog {
   color: #fff;
 }
+
+
 
 
 @media (min-width: 1200px) {
@@ -394,7 +465,7 @@ footer p {
     }
     
     #contactSection {
-        background-image: url("../images/phone-mobile.png");
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/phone-mobile.png");
     }
     
  /* Make Navigation Toggle on Desktop Hover */
@@ -456,8 +527,8 @@ footer p {
         background-image: url("../images/sunny2-mobile.png");
     }
     
-    #contactSection {
-        background-image: url("../images/phone-mobile.png");
+   #contactSection {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/phone-mobile.png");
     }
     
   /* Make Navigation Toggle on Desktop Hover */
@@ -491,8 +562,8 @@ footer p {
         font-size: 40px;
     }
     .skillCircles li {
-        height: 100px;
-        width: 100px; 
+        height: 110px;
+        width: 110px; 
         text-align: center; 
         line-height: 15em;
         display: inline-block;
@@ -502,6 +573,14 @@ footer p {
     	border-radius: 50%;
         position: relative;
     }
+    
+    .skillName {
+       display: none;
+    }
+    
+    #skillIcon {
+        top: -25%;
+    }
  
     #backEndCircle::before {
         display: none;
@@ -510,5 +589,22 @@ footer p {
     #databaseCircle::before {
         display: none;
     }
+    
+    #contactTitle {
+        padding-top: 10%;
+        font-size: 40px;
+    }
+    
+    .contactList {
+         padding-top: 30%;
+    }
+   
+    .contactList a {
+        font-size: 25px;
+        padding-right: 10%;
+        padding-left: 10%;
+     }
+     
+     
 
 }
