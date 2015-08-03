@@ -605,7 +605,8 @@ ul.skillCircles li:hover span.text-content {
     	overflow: hidden;
     	width: 100%;
         font-size: 25px;
-    	color: #e74c3c;;
+    	color: #fff;
+        text-shadow: 0.1em 0.1em 0.2em black;
         white-space: nowrap;
     }
     
