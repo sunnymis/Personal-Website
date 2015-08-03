@@ -5,13 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sunny Mistry</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- CSS -->
     <link href="css/common.css" rel="stylesheet">
-    <link href="css/jquery.fullPage.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false
+
+			});
+		});
+	</script>
+
     
     <!-- Font Awesome --> 
     <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
@@ -23,92 +34,96 @@
     <![endif]-->
 </head>
 <body>
-
+<div id="fullpage">
+<div class="section">
 <div id="headerAndSection">
-    
-    <section class="section">
-        
-        <div class="container">
-            <div class="row vertical-center-row">
-                <div class="col-md-12  sunnyTitle">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-3">
-                            <p id="name"> Sunny Mistry </p>
-                        </div> 
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-3 cycle-words">
-                            <span> Front End Web Developer </span>
-                            <span> .NET Developer </span>
-                            <span> Power Lifter  </span>
-                        </div> 
+        <section class="mysection">            
+            <div class="container">
+                <div class="row vertical-center-row">
+                    <div class="col-md-12  sunnyTitle">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-3">
+                                <p id="name"> Sunny Mistry </p>
+                            </div> 
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 cycle-words">
+                                <span> Front End Web Developer </span>
+                                <span> .NET Developer </span>
+                                <span> Power Lifter  </span>
+                            </div> 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </div>
 
-<div id="aboutSection">
-    <section class="section">
-        <div class="container">
-            <div class="row vertical-center-row">
-                <div class="col-md-4 about-paragraph">
-                    <p> I'm a Software Engineer currently pursuing a Master's degree in Computer Science from
-                        the University at Buffalo. </p> 
-                    <button type="button" class="btn btn-default btn-lg about-download-button">
-                        <span class="glyphicon glyphicon-download-alt"" aria-hidden="true"></span> Download Resume
-                    </button> 
+<div class="section">
+    <div id="aboutSection">
+        <section class="mysection">
+            <div class="container">
+                <div class="row vertical-center-row">
+                    <div class="col-md-4 about-paragraph">
+                        <p> I'm a Software Engineer currently pursuing a Master's degree in Computer Science from
+                            the University at Buffalo. </p> 
+                        <button type="button" class="btn btn-default btn-lg about-download-button">
+                            <span class="glyphicon glyphicon-download-alt"" aria-hidden="true"></span> Download Resume
+                        </button> 
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </div>
 
 
-<div id="skillsSection">
-    <section class="section">
-        <p id="skillsTitle"> What I Do </p>
-        <div class="row">
-            <ul class="skillCircles col-md-12">
-                <li id="frontEndCircle">
-                    <i id="skillIcon" class="fa fa-html5 fa-5x fa-cog col-md-4 "></i>
-                    <p class="skillName">Front End</p>
-                </li>
-                <li id="backEndCircle">
-                    <i id="skillIcon" class="fa fa-gears fa-5x fa-cog col-md-4"></i>
-                    <p class="skillName">Back End</p>
-                </li>
-                <li id="databaseCircle">
-                    <i id="skillIcon" class="fa fa-database fa-5x fa-cog col-md-4"></i>
-                    <p class="skillName"">Database</p>
-                </li>
-            </ul>
-        </div>
-       
-    </section>
-    
-  
-</div>
-
-<div id="contactSection">
-    <section class="section">
-        <p id="contactTitle"> Let's Connect </p> 
-        <div class="row">
-            <div class="col-md-7 col-md-offset-4 contactList">
-                <a href="https://www.facebook.com/sunny.mistry.71"><i class="fa fa-facebook fa-2x fa-cog"></i></a>
-                <a href="https://www.linkedin.com/in/sunnymistry"><i class="fa fa-linkedin fa-2x fa-cog"></i></a>
-                <a href="mailto: sunnymis@buffalo.edu"><i class="fa fa-envelope fa-2x fa-cog"></i></a>
+<div class="section">
+    <div id="skillsSection">
+        <section class="mysection">
+            <p id="skillsTitle"> What I Do </p>
+            <div class="row">
+                <ul class="skillCircles col-md-12">
+                    <li id="frontEndCircle">
+                        <i id="skillIcon" class="fa fa-html5 fa-5x fa-cog col-md-4 "></i>
+                        <p class="skillName">Front End</p>
+                    </li>
+                    <li id="backEndCircle">
+                        <i id="skillIcon" class="fa fa-gears fa-5x fa-cog col-md-4"></i>
+                        <p class="skillName">Back End</p>
+                    </li>
+                    <li id="databaseCircle">
+                        <i id="skillIcon" class="fa fa-database fa-5x fa-cog col-md-4"></i>
+                        <p class="skillName"">Database</p>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </section>
+           
+        </section>
+    </div>
+</div>
+
+<div class="section">
+    <div id="contactSection">
+        <section class="mysection">
+            <p id="contactTitle"> Let's Connect </p> 
+            <div class="row">
+                <div class="col-md-7 col-md-offset-4 contactList">
+                    <a href="https://www.facebook.com/sunny.mistry.71"><i class="fa fa-facebook fa-2x fa-cog"></i></a>
+                    <a href="https://www.linkedin.com/in/sunnymistry"><i class="fa fa-linkedin fa-2x fa-cog"></i></a>
+                    <a href="mailto: sunnymis@buffalo.edu"><i class="fa fa-envelope fa-2x fa-cog"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.fullPage.min.js"></script>
+</div>
 </body>
 </html>
