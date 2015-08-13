@@ -602,11 +602,15 @@ ul.skillCircles li:hover span.text-content {
 
     
     #headerAndSection {
-        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mac-mockup-mobile.png");
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mymac/IMG_2695_mobile.png");
     }
     
     #aboutSection {
         background-image: url("../images/sunny2-mobile.png");
+    }
+    
+     #skillsSection {
+        background-image: url("../images/mymac/IMG_2712_mobile.png");
     }
     
    #contactSection {
