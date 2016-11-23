@@ -1,4 +1,4 @@
-# smistry93.github.io
+# Sunny Mistry
 My Personal Website
 
 This is the source code for my personal website. 
